@@ -1,0 +1,62 @@
+new PlayerText: ProgressBarTD[MAX_PLAYERS][3], ProgressBarTimer[MAX_PLAYERS];
+
+ProgressBarTD[playerid][0] = CreatePlayerTextDraw(playerid, 167.000, 272.000, "_");
+PlayerTextDrawLetterSize(playerid, ProgressBarTD[playerid][0], 0.379, 2.599);
+PlayerTextDrawTextSize(playerid, ProgressBarTD[playerid][0], 229.000, 10.000);
+PlayerTextDrawAlignment(playerid, ProgressBarTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, ProgressBarTD[playerid][0], -1);
+PlayerTextDrawUseBox(playerid, ProgressBarTD[playerid][0], 1);
+PlayerTextDrawBoxColor(playerid, ProgressBarTD[playerid][0], 107);
+PlayerTextDrawSetShadow(playerid, ProgressBarTD[playerid][0], 1);
+PlayerTextDrawSetOutline(playerid, ProgressBarTD[playerid][0], 1);
+PlayerTextDrawBackgroundColor(playerid, ProgressBarTD[playerid][0], 150);
+PlayerTextDrawFont(playerid, ProgressBarTD[playerid][0], 1);
+PlayerTextDrawSetProportional(playerid, ProgressBarTD[playerid][0], 1);
+ProgressBarTD[playerid][1] = CreatePlayerTextDraw(playerid, 173.000, 289.000, "LD_SPAC:white");
+PlayerTextDrawTextSize(playerid, ProgressBarTD[playerid][1], 50.000, 2.000);
+PlayerTextDrawAlignment(playerid, ProgressBarTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, ProgressBarTD[playerid][1], 512819199);
+PlayerTextDrawSetShadow(playerid, ProgressBarTD[playerid][1], 0);
+PlayerTextDrawSetOutline(playerid, ProgressBarTD[playerid][1], 0);
+PlayerTextDrawBackgroundColor(playerid, ProgressBarTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, ProgressBarTD[playerid][1], 4);
+PlayerTextDrawSetProportional(playerid, ProgressBarTD[playerid][1], 1);
+ProgressBarTD[playerid][2] = CreatePlayerTextDraw(playerid, 198.000, 275.000, "Washing");
+PlayerTextDrawLetterSize(playerid, ProgressBarTD[playerid][2], 0.220, 0.999);
+PlayerTextDrawAlignment(playerid, ProgressBarTD[playerid][2], 2);
+PlayerTextDrawColor(playerid, ProgressBarTD[playerid][2], -1);
+PlayerTextDrawSetShadow(playerid, ProgressBarTD[playerid][2], 0);
+PlayerTextDrawSetOutline(playerid, ProgressBarTD[playerid][2], 0);
+PlayerTextDrawBackgroundColor(playerid, ProgressBarTD[playerid][2], 150);
+PlayerTextDrawFont(playerid, ProgressBarTD[playerid][2], 1);
+PlayerTextDrawSetProportional(playerid, ProgressBarTD[playerid][2], 1);
+
+CB:ProgressBar(playerid, const text[]) {
+	new cycle = GetPVarInt(playerid, "progressbar");
+	new Float:x = GetPVarFloat(playerid, "progressx");
+	switch(cycle) {
+		case 0: {
+			SetPVarInt(playerid, "progressbar", 1);
+			SetPVarFloat(playerid, "progressx", 10.000);
+			PlayerTextDrawSetString(playerid, ProgressBarTD[playerid][2], text);
+			PlayerTextDrawTextSize(playerid, ProgressBarTD[playerid][1], 5.000, 2.000);
+			for(new i; i < 3; i++) PlayerTextDrawShow(playerid, ProgressBarTD[playerid][i]);
+			ProgressBarTimer[playerid] = SetTimerEx("ProgressBar", 1000, true, "i", playerid);
+		}
+		case 1..9: {
+			SetPVarInt(playerid, "progressbar", cycle+1);
+			SetPVarFloat(playerid, "progressx", x + 5.000);
+			PlayerTextDrawTextSize(playerid, ProgressBarTD[playerid][1], x, 2.000);
+			PlayerTextDrawShow(playerid, ProgressBarTD[playerid][1]);
+		}
+		case 10: {
+			DeletePVar(playerid, "progressbar");
+			DeletePVar(playerid, "progressbarx");
+			PlayerTextDrawTextSize(playerid, ProgressBarTD[playerid][1], x, 2.000);
+			PlayerTextDrawShow(playerid, ProgressBarTD[playerid][1]);
+			KillTimer(ProgressBarTimer[playerid]);
+			for(new i; i < 3; i++) PlayerTextDrawHide(playerid, ProgressBarTD[playerid][i]);
+		}
+	}
+	return 1;
+}
