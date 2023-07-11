@@ -5,3 +5,4 @@ log.txt
 gamemodes/chiliad.amx
 *.amx
 *.amx
+server_log.txt
