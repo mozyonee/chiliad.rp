@@ -20,8 +20,8 @@ public GetLauncherVehicleModel(current_model)
 	new model = -1;
 	switch(current_model)
 	{
-	    case 612: model = 541;
-	    case 613: model = 451;
+	    case 12500: model = 541;
+	    case 12051: model = 451;
 	    case 614: model = 411;
 		case 662: model = 400;
 		case 668: model = 541;

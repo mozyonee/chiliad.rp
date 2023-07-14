@@ -1,0 +1,2 @@
+
+ApplyAnimation(playerid, "CHAINSAW", "CSAW_G", 4.1, true, false, false, false, 0, false); // shovel
