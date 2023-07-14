@@ -27654,3 +27654,447 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [21:21:08] [debug] AMX backtrace:
 [21:21:08] [debug] #0 0087e604 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:51232
 [21:21:08] [debug] #1 00a5460c in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:65962
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:06:46] filterscripts = ""  (string)
+[22:06:46] 
+[22:06:46] Server Plugins
+[22:06:46] --------------
+[22:06:46]  Loading plugin: crashdetect
+[22:06:46]   CrashDetect plugin 4.21
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: streamer
+[22:06:46] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: gvar
+[22:06:46] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: mysql
+[22:06:46]  >> plugin.mysql: R41-2 successfully loaded.
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: profiler
+[22:06:46]   Profiler plugin 2.15.3
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: pawnregex
+[22:06:46] [Pawn.Regex] plugin v1.2.3 loading...
+[22:06:46] [Pawn.Regex] 
+
+    | Pawn.Regex 1.2.3 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:59:38
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.Regex
+
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: TOTP
+[22:06:46] TOTP plugin v1.0.1 by Games loaded.
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: LauncherAddon
+[22:06:46] 
+[22:06:46]  ========[ LauncherAddon 1.2 ]========
+[22:06:46]    
+[22:06:46]    Версия сервера: 0.3.7 R2
+[22:06:46]    Операционная система: Windows
+[22:06:46]    
+[22:06:46]    (c) - Sanya -
+[22:06:46]    vk.com/s.disa2013
+[22:06:46]    
+[22:06:46]    Проверка активации...
+[22:06:46]    Проверка активации успешно пройдена
+[22:06:46]  ===============================
+[22:06:46] 
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: sscanf
+[22:06:46] 
+[22:06:46]  ===============================
+[22:06:46] 
+[22:06:46]       sscanf plugin loaded.     
+[22:06:46] 
+[22:06:46]          Version: 2.13.8
+[22:06:46] 
+[22:06:46]    (c) 2022 Alex "Y_Less" Cole  
+[22:06:46] 
+[22:06:46]  ===============================
+[22:06:46] 
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: pawnraknet
+[22:06:46] [Pawn.RakNet] plugin v1.6.0 loading...
+[22:06:46] [Pawn.RakNet] 
+
+    | Pawn.RakNet 1.6.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 19:36:19
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.RakNet
+    |--------------------------------------------------------------
+    | Wiki: https://github.com/katursis/Pawn.RakNet/wiki
+
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: pawncmd
+[22:06:46] [Pawn.CMD] plugin v3.4.0 loading...
+[22:06:46] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[22:06:46]   Loaded.
+[22:06:46]  Loading plugin: discord-connector
+[22:07:07]  >> plugin.dc-connector: timeout while initializing data.
+[22:07:07]                          plugin will proceed to retry connecting in the background.
+[22:07:07]   Loaded.
+[22:07:07]  Loaded 12 plugins.
+
+[22:07:07] 
+[22:07:07] Filterscripts
+[22:07:07] ---------------
+[22:07:07]   Loaded 0 filterscripts.
+
+[22:07:07]  
+[22:07:07] --------------------------------------
+[22:07:07]  Anticheat Nex-AC loaded!
+[22:07:07]  Anticheat version: 1.9.61
+[22:07:07]  Author: Nexius
+[22:07:07] --------------------------------------
+
+[22:07:07] [debug] Long callback execution detected (hang or performance issue)
+[22:07:07] [debug] AMX backtrace:
+[22:07:07] [debug] #0 0007c97c in ScriptInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:2942
+[22:07:07] [debug] #1 00072100 in public ac_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1701
+[22:07:07] [debug] #2 000259d4 in public CB_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3532
+[22:07:07] [debug] #3 00008404 in public PawnCmd_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:697
+[22:07:07] [debug] #4 000064b0 in public SSCANF_OnGameModeInit ()  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\Pawn.CMD.inc:131
+[22:07:07] [debug] #5 00005bf8 in public PawnRakNet_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1066
+[22:07:07] [debug] #6 00005848 in public Iter_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\Pawn.RakNet.inc:1153
+[22:07:07] [debug] #7 native CallLocalFunction () in samp-server.exe
+[22:07:07] [debug] #8 00001238 in public OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\foreach.inc:735
+[22:07:07] [ADM] Info: Load 3DTryg Gen. 2 v1.0.1 for SA:MP 0.3.7 by Abyss Morgan
+[22:07:07] [ADM] Info: Load 3DTryg Modules: Player, Vehicle, Universal, Draw3D, Cast3D, Streamer v2.9.5
+[22:07:08] [Success] Vehicle loaded. (212 pcs.)
+[22:07:08] [Success] Gang/mafia freezes loaded. (1 pcs.)
+[22:07:09] [Success] Houses loaded. (424 pcs.)
+[22:07:09] [Warning] Families weren't found in DB.
+[22:07:10] [Success] Business interiors loaded. (14 pcs.)
+[22:07:10] [Success] Businesses loaded. (26 pcs.)
+[22:07:14] [Success] Business actors loaded. (26 pcs.)
+[22:07:14] [Warning] Business objects weren't found in DB.
+[22:07:14] [Success] Apartments loaded. (0 pcs.)
+[22:07:14] [Success] Green zones loaded. (48 pcs.)
+[22:07:14] [Success] Gangzones loaded. (130 pcs.)
+[22:07:14] [Success] Factions loaded (6 pcs.)
+[22:07:14] [Success] Faction ranks loaded (57 pcs.)
+[22:07:14] [Success] Faction skins loaded (18 pcs.)
+[22:07:14] [Success] Faction fleets loaded (50 pcs.)
+[22:07:14] [Success] Anti-cheat loaded. (53 pcs.)
+[22:07:15] [Success] Black market loaded. (1 pcs.)
+[22:07:15] [Success] Economics loaded.
+[22:07:15] [Success] ATMs loaded. (7 pcs.)
+[22:07:15] [Success] Business functions loaded. (7 pcs.)
+[22:07:15] [Success] Faction weapons loaded.
+[22:07:15] [Success] Billboards loaded. (50 pcs.)
+[22:07:15] [Success] Graffiti loaded. (120 pcs.)
+[22:07:15] [Success] Motorhouses loaded. (3 pcs.)
+[22:07:15] [Success] Diplomacy loaded. (8 pcs.)
+[22:07:16] [Success] Pickups loaded. (79 pcs.)
+[22:07:16] [Bus] 1 routes were uploaded.
+[22:07:16] [Success] Dynamic objects loaded. (13404 pcs.)
+[22:07:16] Number of vehicle models: 54
+[22:07:16] [connection] incoming connection: 127.0.0.1:55371 id: 0
+[22:07:16] [Success] Actors loaded. (13 pcs.)
+[22:07:16] [debug] Long callback execution detected (hang or performance issue)
+[22:07:16] [debug] AMX backtrace:
+[22:07:16] [debug] #0 00aa7784 in public LoadCheckpoints (r=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:69096
+[22:07:16] [Bus] Checkpoints uploading for route #101: 80 pcs.
+[22:07:17] [debug] Long callback execution detected (hang or performance issue)
+[22:07:17] [debug] AMX backtrace:
+[22:07:17] [debug] #0 00a5532c in pay_realty () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:65283
+[22:07:17] [debug] #1 007690c0 in PayDay () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:38122
+[22:07:17] [debug] #2 00a6752c in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66058
+[22:07:18] [connection] incoming connection: 127.0.0.1:55372 id: 0
+[22:07:28] [connection] incoming connection: 127.0.0.1:52871 id: 0
+[22:07:28] [join] Brian_Randall has joined the server (0:127.0.0.1)
+[22:07:28] [Nex-AC debug] Invalid version by ID 0. Version: Chiliad
+[22:07:28] [Nex-AC] Suspicion on the ID 0. Reason code: 041
+[22:07:33] [debug] Long callback execution detected (hang or performance issue)
+[22:07:33] [debug] AMX backtrace:
+[22:07:33] [debug] #0 0085378c in public characters_panel (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:48307
+[22:07:33] [debug] #1 002dfdbc in public check_account (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:35252
+[22:07:35] [debug] Long callback execution detected (hang or performance issue)
+[22:07:35] [debug] AMX backtrace:
+[22:07:35] [debug] #0 00a5478c in PreloadAnimLib (playerid=0, animlib[]=@01cb7764 "HEIST9") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:65242
+[22:07:35] [debug] #1 00a54104 in ReloadAllAnims (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:65203
+[22:07:35] [debug] #2 00872bb8 in public start_character (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:49757
+[22:07:35] [debug] #3 00870a4c in public load_character (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:49658
+[22:07:35] [debug] Long callback execution detected (hang or performance issue)
+[22:07:35] [debug] AMX backtrace:
+[22:07:35] [debug] #0 0001e8f0 in public ac_SetPlayerPos (playerid=0, Float:ac_x=1503.81567, Float:ac_y=-1202.75989, Float:ac_z=23.59380) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:1555
+[22:07:35] [debug] #1 00025120 in acc_SetPlayerPos (playerid=0, Float:x=1503.81567, Float:y=-1202.75989, Float:z=23.59380) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:2765
+[22:07:35] [debug] #2 0006f450 in WC_SetPlayerPos (playerid=0, Float:x=1503.81567, Float:y=-1202.75989, Float:z=23.59380) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1416
+[22:07:35] [debug] #3 00a2c9cc in SetPlayerPosAC (playerid=0, Float:x=1503.81567, Float:y=-1202.75989, Float:z=23.59380, world=0, interior=0, setUP=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:63127
+[22:07:35] [debug] #4 002d125c in public SettingSpawn (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:34438
+[22:07:35] [debug] #5 002c9b28 in public WC_OnPlayerSpawn (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:34225
+[22:07:35] [debug] #6 00074d90 in public ac_OnPlayerSpawn (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1964
+[22:07:35] [debug] #7 0002a240 in public OnPlayerSpawn (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3923
+[22:07:37] [chat] [Brian_Randall]: a
+[22:07:41] [debug] Long callback execution detected (hang or performance issue)
+[22:07:41] [debug] AMX backtrace:
+[22:07:41] [debug] #0 000118a8 in MD5_Transform (buf[]=@01cd6c6c !"gE#", in[]=@01cd6c84 !"l826") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\MD5.inc:449
+[22:07:41] [debug] #1 0000e504 in MD5_Final (ctx[E_MD5_CONTEXT:22]=@01cd6c6c, strings=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\MD5.inc:349
+[22:07:41] [debug] #2 0000d704 in MD5_Hash (string[]=@01cd342c "628ltq") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\MD5.inc:111
+[22:07:41] [debug] #3 001463e4 in public ac_OnDialogResponse (playerid=0, dialogid=140, response=1, listitem=-1, inputtext[]=@01cd342c "628ltq") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:13509
+[22:07:41] [debug] #4 0002be3c in public OnDialogResponse (playerid=0, dialogid=140, response=1, listitem=-1, inputtext[]=@01cd342c "628ltq") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:4174
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 24.598577, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 36.704914, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 26.299247, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 24.965866, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 21.199937, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 30.999977, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:42] [Nex-AC debug] Speed: 0, dist: 28.400062, dist set: 25000.000000
+[22:07:42] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:43] [Nex-AC debug] Speed: 0, dist: 31.600057, dist set: 25000.000000
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:43] [Nex-AC debug] Dist: 44.000011, dist set: 25000.000000, speed: 0, pos x, y, z: 1385.455932, -1027.060302, 128.624694, old pos x, y, z: 1411.622314, -1062.434326, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Speed: 0, dist: 28.799974, dist set: 25000.000000
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:43] [Nex-AC debug] Dist: 41.999923, dist set: 25000.000000, speed: 0, pos x, y, z: 1337.405883, -962.100219, 128.624694, old pos x, y, z: 1362.382324, -995.866638, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 45.199844, dist set: 25000.000000, speed: 0, pos x, y, z: 1310.589111, -925.714965, 128.624694, old pos x, y, z: 1337.405883, -962.100219, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 48.398307, dist set: 25000.000000, speed: 0, pos x, y, z: 1282.677490, -886.175903, 128.624694, old pos x, y, z: 1310.589111, -925.714965, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 51.596858, dist set: 25000.000000, speed: 0, pos x, y, z: 1254.441040, -842.990966, 128.624694, old pos x, y, z: 1282.677490, -886.175903, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Speed: 0, dist: 26.999847, dist set: 25000.000000
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:43] [Nex-AC debug] Dist: 70.998565, dist set: 25000.000000, speed: 0, pos x, y, z: 1204.224121, -758.840820, 128.624694, old pos x, y, z: 1240.284912, -819.999755, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 75.999450, dist set: 25000.000000, speed: 0, pos x, y, z: 1166.781738, -692.704711, 128.624694, old pos x, y, z: 1204.224121, -758.840820, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 64.399810, dist set: 25000.000000, speed: 0, pos x, y, z: 1135.663330, -636.322265, 128.624694, old pos x, y, z: 1166.781738, -692.704711, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 68.183067, dist set: 25000.000000, speed: 0, pos x, y, z: 1103.572753, -576.825073, 137.524703, old pos x, y, z: 1135.663330, -636.322265, 128.624694
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 73.963294, dist set: 25000.000000, speed: 0, pos x, y, z: 1070.439086, -514.256958, 158.924697, old pos x, y, z: 1103.572753, -576.825073, 137.524703
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 98.849578, dist set: 25000.000000, speed: 0, pos x, y, z: 1027.268554, -431.884063, 192.424697, old pos x, y, z: 1070.439086, -514.256958, 158.924697
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:43] [Nex-AC debug] Dist: 58.800003, dist set: 25000.000000, speed: 0, pos x, y, z: 991.206481, -362.721008, 192.424697, old pos x, y, z: 1018.383239, -414.863739, 192.424697
+[22:07:43] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [Nex-AC debug] Dist: 40.789794, dist set: 25000.000000, speed: 0, pos x, y, z: 998.554382, -287.090515, 192.424697, old pos x, y, z: 994.955017, -327.721191, 192.424697
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 25.181652, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 28.391101, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 23.399587, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 25.199928, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 36.399936, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 29.399991, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [Nex-AC debug] Dist: 41.999973, dist set: 25000.000000, speed: 0, pos x, y, z: 960.234985, -81.044578, 192.424697, old pos x, y, z: 969.432373, -122.025131, 192.424697
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[22:07:44] [Nex-AC debug] Speed: 0, dist: 33.599971, dist set: 25000.000000
+[22:07:44] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:44] [warning] client exceeded 'ackslimit' 127.0.0.1:52871 (3656) Limit: 3000/sec
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 20.399993, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 23.597997, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 26.772640, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 22.186828, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 33.319137, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 28.411144, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 10.072237
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 000
+[22:07:45] [Nex-AC debug] Dist: 201.927291, dist set: 1092.633178, acSet[7]: -1, speed: 0, old pos x, y: 950.319519, -36.945594
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (6)
+[22:07:45] [Nex-AC debug] Speed: 0, dist: 23.660284, dist set: 25000.000000
+[22:07:45] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[22:07:46] [Nex-AC debug] Speed: 0, dist: 13.223088
+[22:07:46] [Nex-AC] Suspicion on the ID 0. Reason code: 000
+[22:07:46] [Nex-AC debug] Speed: 0, dist: 4.600012
+[22:07:46] [Nex-AC] Suspicion on the ID 0. Reason code: 000
+[22:07:47] [Nex-AC debug] Dist: 107.990852, dist set: 984.804138, acSet[7]: -1, speed: 0, old pos x, y: 1002.122985, -232.114837
+[22:07:47] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (6)
+[22:11:42] [debug] Long callback execution detected (hang or performance issue)
+[22:11:42] [debug] AMX backtrace:
+[22:11:42] [debug] #0 0089167c in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:51335
+[22:11:42] [debug] #1 00a675f0 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66065
+[22:11:53] [debug] Long callback execution detected (hang or performance issue)
+[22:11:53] [debug] AMX backtrace:
+[22:11:53] [debug] #0 00070158 in WC_PlayerTextDrawDestroy (playerid=0, PlayerText:text=3) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1561
+[22:11:53] [debug] #1 002bbccc in public WC_OnPlayerDisconnect (playerid=0, reason=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33578
+[22:11:53] [debug] #2 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:11:53] [debug] #3 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:11:53] [debug] #4 00008344 in public SSCANF_OnPlayerDisconnect (0, 0)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:11:53] [debug] #5 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:11:53] [debug] #6 native CallLocalFunction () in samp-server.exe
+[22:11:53] [debug] #7 000017bc in public OnPlayerDisconnect (playerid=0, reason=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\foreach.inc:833
+[22:12:00] [debug] Run time error 3: "Stack/heap collision (insufficient stack size)"
+[22:12:00] [debug]  Stack pointer (STK) is 0x1CD30E0, heap pointer (HEA) is 0x1CD342C
+[22:12:00] [debug] AMX backtrace:
+[22:12:00] [debug] #0 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #1 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #2 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #3 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #4 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #5 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #6 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #7 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #8 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #9 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #10 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #11 native Kick () in samp-server.exe
+[22:12:00] [debug] #12 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #13 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #14 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #15 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #16 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #17 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #18 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #19 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #20 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #21 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #22 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #23 native Kick () in samp-server.exe
+[22:12:00] [debug] #24 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #25 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #26 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #27 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #28 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #29 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #30 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #31 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #32 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #33 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #34 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #35 native Kick () in samp-server.exe
+[22:12:00] [debug] #36 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #37 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #38 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #39 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #40 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #41 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #42 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #43 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #44 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #45 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #46 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #47 native Kick () in samp-server.exe
+[22:12:00] [debug] #48 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #49 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #50 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #51 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #52 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #53 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #54 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #55 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #56 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #57 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #58 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #59 native Kick () in samp-server.exe
+[22:12:00] [debug] #60 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #61 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #62 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #63 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #64 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #65 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #66 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #67 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #68 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #69 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #70 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #71 native Kick () in samp-server.exe
+[22:12:00] [debug] #72 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #73 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #74 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #75 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #76 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #77 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #78 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #79 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #80 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #81 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #82 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #83 native Kick () in samp-server.exe
+[22:12:00] [debug] #84 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #85 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #86 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #87 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #88 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #89 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #90 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #91 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #92 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #93 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #94 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #95 native Kick () in samp-server.exe
+[22:12:00] [debug] #96 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #97 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #98 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #99 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #100 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [debug] #101 native CallLocalFunction () in samp-server.exe
+[22:12:00] [debug] #102 002c0e48 in public WC_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:33869
+[22:12:00] [debug] #103 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[22:12:00] [debug] #104 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[22:12:00] [debug] #105 00008344 in public SSCANF_OnPlayerDisconnect (0, 2)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[22:12:00] [debug] #106 00005e28 in public OnPlayerDisconnect (playerid=0, reason=2) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:2)
+[22:12:00] [part] Brian_Randall has left the server (0:0)
+[22:12:00] [OnQueryError] SQL ERROR. QUERY:
+[22:12:00] UPDATE admins SET `online_wednesday` = 226, `kick` = 0, `ban` = 0, `mute` = 0, `pm` = 0, `warn` = 0, `jail` = 0,`vig`=0,`blockadmin`=0, online_status = '0' WHERE `Name` = 'Brian_Randall' LIMIT 1
+[22:12:00] [OnQueryError] SQL ERROR. QUERY:
+[22:12:00] UPDATE admins SET `online_wednesday` = 226, `kick` = 0, `ban` = 0, `mute` = 0, `pm` = 0, `warn` = 0, `jail` = 0,`vig`=0,`blockadmin`=0, online_status = '0' WHERE `Name` = 'Brian_Randall' LIMIT 1
