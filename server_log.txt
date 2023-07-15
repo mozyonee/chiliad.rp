@@ -8325,3 +8325,326 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [10:15:27] [debug] Long callback execution detected (hang or performance issue)
 [10:15:27] [debug] AMX backtrace:
 [10:15:27] [debug] #0 00a573ac in public player_timer (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:65727
+[10:15:57] [debug] Long callback execution detected (hang or performance issue)
+[10:15:57] [debug] AMX backtrace:
+[10:15:57] [debug] #0 0089d5f4 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:15:57] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:18:08] [debug] Long callback execution detected (hang or performance issue)
+[10:18:08] [debug] AMX backtrace:
+[10:18:08] [debug] #0 0089d5c8 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:18:08] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:20:18] [debug] Long callback execution detected (hang or performance issue)
+[10:20:18] [debug] AMX backtrace:
+[10:20:18] [debug] #0 0089d580 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52269
+[10:20:18] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:22:29] [debug] Long callback execution detected (hang or performance issue)
+[10:22:29] [debug] AMX backtrace:
+[10:22:29] [debug] #0 0089d5f4 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:22:29] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:24:39] [debug] Long callback execution detected (hang or performance issue)
+[10:24:39] [debug] AMX backtrace:
+[10:24:39] [debug] #0 0089d5b4 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52269
+[10:24:39] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:26:53] [debug] Long callback execution detected (hang or performance issue)
+[10:26:53] [debug] AMX backtrace:
+[10:26:53] [debug] #0 0089d5f4 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:26:53] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:29:14] [debug] Long callback execution detected (hang or performance issue)
+[10:29:14] [debug] AMX backtrace:
+[10:29:14] [debug] #0 0090ad5c in GiveFullness (playerid=0, amount=-1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:57774
+[10:29:14] [debug] #1 00a5ea80 in public minute_timer () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66135
+[10:29:14] [debug] #2 00a722bc in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67020
+[10:31:34] [debug] Long callback execution detected (hang or performance issue)
+[10:31:34] [debug] AMX backtrace:
+[10:31:34] [debug] #0 0089d5d4 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:31:34] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:33:53] [debug] Long callback execution detected (hang or performance issue)
+[10:33:53] [debug] AMX backtrace:
+[10:33:53] [debug] #0 0089d5a0 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52269
+[10:33:53] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:38:33] [debug] Long callback execution detected (hang or performance issue)
+[10:38:33] [debug] AMX backtrace:
+[10:38:33] [debug] #0 0089d5fc in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:38:33] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:40:52] [debug] Long callback execution detected (hang or performance issue)
+[10:40:52] [debug] AMX backtrace:
+[10:40:52] [debug] #0 0089d59c in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52269
+[10:40:52] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:43:12] [debug] Long callback execution detected (hang or performance issue)
+[10:43:12] [debug] AMX backtrace:
+[10:43:12] [debug] #0 0089d58c in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52269
+[10:43:12] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:45:30] [debug] Long callback execution detected (hang or performance issue)
+[10:45:30] [debug] AMX backtrace:
+[10:45:30] [debug] #0 0089d5fc in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:45:30] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:52:24] [debug] Long callback execution detected (hang or performance issue)
+[10:52:24] [debug] AMX backtrace:
+[10:52:24] [debug] #0 0089d5e8 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:52:24] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:54:08] [debug] Long callback execution detected (hang or performance issue)
+[10:54:08] [debug] AMX backtrace:
+[10:54:08] [debug] #0 0000de3c in MD5_Copy (dest[]=@01ce2f5c !"l826", src[]=@01cdf704 "628ltq", start=5, len=6) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\MD5.inc:282
+[10:54:08] [debug] #1 0000dd1c in MD5_Update (ctx[E_MD5_CONTEXT:22]=@01ce2f44, data[]=@01cdf704 "628ltq", len=6) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\MD5.inc:252
+[10:54:08] [debug] #2 0000d6c0 in MD5_Hash (string[]=@01cdf704 "628ltq") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\MD5.inc:111
+[10:54:08] [debug] #3 00151cf0 in public ac_OnDialogResponse (playerid=0, dialogid=140, response=1, listitem=-1, inputtext[]=@01cdf704 "628ltq") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:14114
+[10:54:08] [debug] #4 0002be3c in public OnDialogResponse (playerid=0, dialogid=140, response=1, listitem=-1, inputtext[]=@01cdf704 "628ltq") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:4174
+[10:56:52] [debug] Long callback execution detected (hang or performance issue)
+[10:56:52] [debug] AMX backtrace:
+[10:56:52] [debug] #0 0089d5f0 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:52270
+[10:56:52] [debug] #1 00a72314 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67022
+[10:56:53] [Nex-AC debug] Speed: 0, dist: 27.500122, dist set: 25000.000000
+[10:56:53] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[10:56:54] [Nex-AC debug] Speed: 0, dist: 25.500000, dist set: 25000.000000
+[10:56:54] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[10:56:54] [Nex-AC debug] Speed: 0, dist: 29.000000, dist set: 25000.000000
+[10:56:54] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[10:56:56] [Nex-AC debug] Speed: 0, dist: 24.499938, dist set: 25000.000000
+[10:56:56] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (3)
+[10:56:56] [Nex-AC debug] Dist: 42.699951, dist set: 25000.000000, speed: 0, pos x, y, z: 964.933105, 2160.093994, 1054.989379, old pos x, y, z: 964.933105, 2160.093994, 1012.289428
+[10:56:56] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+[10:56:56] [Nex-AC debug] Dist: 48.300048, dist set: 25000.000000, speed: 0, pos x, y, z: 964.933105, 2160.093994, 1103.289428, old pos x, y, z: 964.933105, 2160.093994, 1054.989379
+[10:56:56] [Nex-AC] Suspicion on the ID 0. Reason code: 002 (2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:58:44] 
+[10:58:44] Server Plugins
+[10:58:44] --------------
+[10:58:44]  Loading plugin: crashdetect
+[10:58:44]   CrashDetect plugin 4.21
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: streamer
+[10:58:44] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: gvar
+[10:58:44] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: mysql
+[10:58:44]  >> plugin.mysql: R41-2 successfully loaded.
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: profiler
+[10:58:44]   Profiler plugin 2.15.3
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: pawnregex
+[10:58:44] [Pawn.Regex] plugin v1.2.3 loading...
+[10:58:44] [Pawn.Regex] 
+
+    | Pawn.Regex 1.2.3 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:59:38
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.Regex
+
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: TOTP
+[10:58:44] TOTP plugin v1.0.1 by Games loaded.
+[10:58:44]   Loaded.
+[10:58:44]  Loading plugin: LauncherAddon
+[10:58:44] 
+[10:58:44]  ========[ LauncherAddon 1.2 ]========
+[10:58:44]    
+[10:58:44]    Версия сервера: 0.3.7 R2
+[10:58:44]    Операционная система: Windows
+[10:58:44]    
+[10:58:44]    (c) - Sanya -
+[10:58:44]    vk.com/s.disa2013
+[10:58:44]    
+[10:58:44]    Проверка активации...
+[10:58:44]    Проверка активации успешно пройдена
+[10:58:45]  ===============================
+[10:58:45] 
+[10:58:45]   Loaded.
+[10:58:45]  Loading plugin: sscanf
+[10:58:45] 
+[10:58:45]  ===============================
+[10:58:45] 
+[10:58:45]       sscanf plugin loaded.     
+[10:58:45] 
+[10:58:45]          Version: 2.13.8
+[10:58:45] 
+[10:58:45]    (c) 2022 Alex "Y_Less" Cole  
+[10:58:45] 
+[10:58:45]  ===============================
+[10:58:45] 
+[10:58:45]   Loaded.
+[10:58:45]  Loading plugin: pawnraknet
+[10:58:45] [Pawn.RakNet] plugin v1.6.0 loading...
+[10:58:45] [Pawn.RakNet] 
+
+    | Pawn.RakNet 1.6.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 19:36:19
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.RakNet
+    |--------------------------------------------------------------
+    | Wiki: https://github.com/katursis/Pawn.RakNet/wiki
+
+[10:58:45]   Loaded.
+[10:58:45]  Loading plugin: pawncmd
+[10:58:45] [Pawn.CMD] plugin v3.4.0 loading...
+[10:58:45] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:58:45]   Loaded.
+[10:58:45]  Loading plugin: discord-connector
+[10:59:06]  >> plugin.dc-connector: timeout while initializing data.
+[10:59:06]                          plugin will proceed to retry connecting in the background.
+[10:59:06]   Loaded.
+[10:59:06]  Loaded 12 plugins.
+
+[10:59:06] 
+[10:59:06] Filterscripts
+[10:59:06] ---------------
+[10:59:06]   Loading filterscript 'aview.amx'...
+[10:59:06] 
+         Animation Browser
+[10:59:06]               v1.0
+[10:59:06]              SoNik))
+
+[10:59:06]   Loaded 1 filterscripts.
+
+[10:59:06]  
+[10:59:06] --------------------------------------
+[10:59:06]  Anticheat Nex-AC loaded!
+[10:59:06]  Anticheat version: 1.9.61
+[10:59:06]  Author: Nexius
+[10:59:06] --------------------------------------
+
+[10:59:06] [debug] Long callback execution detected (hang or performance issue)
+[10:59:06] [debug] AMX backtrace:
+[10:59:06] [debug] #0 0007c9a4 in ScriptInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:2942
+[10:59:06] [debug] #1 00072100 in public ac_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1701
+[10:59:06] [debug] #2 000259d4 in public CB_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3532
+[10:59:06] [debug] #3 00008404 in public PawnCmd_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:697
+[10:59:06] [debug] #4 000064b0 in public SSCANF_OnGameModeInit ()  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\Pawn.CMD.inc:131
+[10:59:06] [debug] #5 00005bf8 in public PawnRakNet_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1066
+[10:59:06] [debug] #6 00005848 in public Iter_OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\Pawn.RakNet.inc:1153
+[10:59:06] [debug] #7 native CallLocalFunction () in samp-server.exe
+[10:59:06] [debug] #8 00001238 in public OnGameModeInit () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\foreach.inc:735
+[10:59:06] [ADM] Info: Load 3DTryg Gen. 2 v1.0.1 for SA:MP 0.3.7 by Abyss Morgan
+[10:59:06] [ADM] Info: Load 3DTryg Modules: Player, Vehicle, Universal, Draw3D, Cast3D, Streamer v2.9.5
+[10:59:07] [Success] Vehicle loaded. (212 pcs.)
+[10:59:07] [Success] Gang/mafia freezes loaded. (1 pcs.)
+[10:59:09] [Success] Houses loaded. (424 pcs.)
+[10:59:09] [Warning] Families weren't found in DB.
+[10:59:09] [Success] Business interiors loaded. (14 pcs.)
+[10:59:09] [Success] Businesses loaded. (26 pcs.)
+[10:59:13] [Success] Business actors loaded. (26 pcs.)
+[10:59:14] [Warning] Business objects weren't found in DB.
+[10:59:14] [Success] Apartments loaded. (0 pcs.)
+[10:59:14] [Success] Green zones loaded. (48 pcs.)
+[10:59:14] [Success] Gangzones loaded. (130 pcs.)
+[10:59:14] [Success] Factions loaded (6 pcs.)
+[10:59:14] [Success] Faction ranks loaded (68 pcs.)
+[10:59:14] [Success] Faction skins loaded (18 pcs.)
+[10:59:14] [Success] Faction fleets loaded (50 pcs.)
+[10:59:15] [Success] Anti-cheat loaded. (53 pcs.)
+[10:59:15] [Success] Black market loaded. (1 pcs.)
+[10:59:15] [Success] Economics loaded.
+[10:59:15] [Success] ATMs loaded. (7 pcs.)
+[10:59:15] [Success] Business functions loaded. (7 pcs.)
+[10:59:15] [Success] Faction weapons loaded.
+[10:59:15] [Success] Billboards loaded. (50 pcs.)
+[10:59:15] [Success] Graffiti loaded. (120 pcs.)
+[10:59:15] [Success] Motorhouses loaded. (3 pcs.)
+[10:59:15] [Success] Diplomacy loaded. (8 pcs.)
+[10:59:16] [Success] Pickups loaded. (79 pcs.)
+[10:59:16] [Bus] 1 routes were uploaded.
+[10:59:16] [Success] Dynamic objects loaded. (13410 pcs.)
+[10:59:16] Number of vehicle models: 54
+[10:59:16] [connection] incoming connection: 127.0.0.1:61136 id: 0
+[10:59:16] [Success] Actors loaded. (13 pcs.)
+[10:59:16] [debug] Long callback execution detected (hang or performance issue)
+[10:59:16] [debug] AMX backtrace:
+[10:59:16] [debug] #0 00ab13a0 in public LoadCheckpoints (r=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:70042
+[10:59:16] [Bus] Checkpoints uploading for route #101: 80 pcs.
+[10:59:17] [debug] Long callback execution detected (hang or performance issue)
+[10:59:17] [debug] AMX backtrace:
+[10:59:17] [debug] #0 00a5ee8c in pay_realty () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66219
+[10:59:17] [debug] #1 00773124 in PayDay () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:38896
+[10:59:17] [debug] #2 00a71a88 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67015
+[10:59:18] [connection] incoming connection: 127.0.0.1:64318 id: 0
+[10:59:18] [join] Brian_Randall has joined the server (0:127.0.0.1)
+[10:59:18] [Nex-AC debug] Invalid version by ID 0. Version: Chiliad
+[10:59:18] [Nex-AC] Suspicion on the ID 0. Reason code: 041
+[10:59:21] [debug] Long callback execution detected (hang or performance issue)
+[10:59:21] [debug] AMX backtrace:
+[10:59:21] [debug] #0 0006e2fc in WC_ApplyAnimation (playerid=0, animlib[]=@01cc3280 "benchpress", animname[]=@01cc385c "null", Float:fDelta=0.00000, loop=0, lockx=0, locky=0, freeze=0, time=0, forcesync=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1306
+[10:59:21] [debug] #1 00a5eda0 in PreloadAnimLib (playerid=0, animlib[]=@01cc3280 "benchpress") at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66201
+[10:59:21] [debug] #2 00a5e3f0 in ReloadAllAnims (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66146
+[10:59:21] [debug] #3 0087eb18 in public start_character (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:50699
+[10:59:21] [debug] #4 0087c9ac in public load_character (playerid=0) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:50600
+[11:00:00] [debug] Long callback execution detected (hang or performance issue)
+[11:00:00] [debug] AMX backtrace:
+[11:00:00] [debug] #0 0088fe3c in GetDayNumber () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:51663
+[11:00:00] [debug] #1 0076f308 in PayDay () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:38713
+[11:00:00] [debug] #2 00a71a88 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67015
+[11:00:06] [debug] Long callback execution detected (hang or performance issue)
+[11:00:06] [debug] AMX backtrace:
+[11:00:06] [debug] #0 0081ffc0 in public ac_OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=244) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:46683
+[11:00:06] [debug] #1 000565ec in public OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=244) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:7619
+[11:00:12] [debug] Long callback execution detected (hang or performance issue)
+[11:00:12] [debug] AMX backtrace:
+[11:00:12] [debug] #0 0081ff8c in public ac_OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=239) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:46682
+[11:00:12] [debug] #1 000565ec in public OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=239) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:7619
+[11:00:16] [debug] Long callback execution detected (hang or performance issue)
+[11:00:16] [debug] AMX backtrace:
+[11:00:16] [debug] #0 0081ffc8 in public ac_OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=238) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:46683
+[11:00:16] [debug] #1 000565ec in public OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=238) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:7619
+[11:00:17] [debug] Long callback execution detected (hang or performance issue)
+[11:00:17] [debug] AMX backtrace:
+[11:00:17] [debug] #0 0081ffdc in public ac_OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=243) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:46683
+[11:00:17] [debug] #1 000565ec in public OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=243) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:7619
+[11:00:17] [debug] Long callback execution detected (hang or performance issue)
+[11:00:17] [debug] AMX backtrace:
+[11:00:17] [debug] #0 0081be84 in public ac_OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=244) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:46470
+[11:00:17] [debug] #1 000565ec in public OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=244) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:7619
+[11:01:01] [debug] Long callback execution detected (hang or performance issue)
+[11:01:01] [debug] AMX backtrace:
+[11:01:01] [debug] #0 0081aed8 in public ac_OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=242) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:46425
+[11:01:01] [debug] #1 000565ec in public OnPlayerClickPlayerTextDraw (playerid=0, PlayerText:playertextid=242) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:7619
+[11:01:30] [debug] Long callback execution detected (hang or performance issue)
+[11:01:30] [debug] AMX backtrace:
+[11:01:30] [debug] #0 0090a4b4 in GiveFullness (playerid=0, amount=-1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:57773
+[11:01:30] [debug] #1 00a5e2b8 in public minute_timer () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:66135
+[11:01:30] [debug] #2 00a71af4 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67020
+[11:01:49] [debug] Long callback execution detected (hang or performance issue)
+[11:01:49] [debug] AMX backtrace:
+[11:01:49] [debug] #0 000700f8 in WC_PlayerTextDrawDestroy (playerid=0, PlayerText:text=4) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1560
+[11:01:49] [debug] #1 002c5ed8 in public WC_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:34353
+[11:01:49] [debug] #2 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[11:01:49] [debug] #3 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[11:01:49] [debug] #4 00008344 in public SSCANF_OnPlayerDisconnect (0, 1)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[11:01:49] [debug] #5 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[11:01:49] [debug] #6 native CallLocalFunction () in samp-server.exe
+[11:01:49] [debug] #7 000017bc in public OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\foreach.inc:833
+[11:01:50] [part] Brian_Randall has left the server (0:1)
+[11:01:50] [OnQueryError] SQL ERROR. QUERY:
+[11:01:50] UPDATE admins SET `online_saturday` = 0, `kick` = 0, `ban` = 0, `mute` = 0, `pm` = 0, `warn` = 0, `jail` = 0,`vig`=0,`blockadmin`=0, online_status = '0' WHERE `Name` = 'Brian_Randall' LIMIT 1
