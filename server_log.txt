@@ -26807,3 +26807,22 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [23:00:00] [debug] #0 00a769b4 in pay_realty () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:67650
 [23:00:00] [debug] #1 0078549c in PayDay () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:39966
 [23:00:00] [debug] #2 00a8954c in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:68458
+[23:01:17] [debug] Long callback execution detected (hang or performance issue)
+[23:01:17] [debug] AMX backtrace:
+[23:01:17] [debug] #0 008b3ca0 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:53651
+[23:01:17] [debug] #1 00a89610 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:68465
+[23:05:40] [debug] Long callback execution detected (hang or performance issue)
+[23:05:40] [debug] AMX backtrace:
+[23:05:40] [debug] #0 008b3cf0 in ghetto_war () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:53652
+[23:05:40] [debug] #1 00a89610 in public OnGameModeUpdate () at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:68465
+[23:07:38] [debug] Long callback execution detected (hang or performance issue)
+[23:07:38] [debug] AMX backtrace:
+[23:07:38] [debug] #0 00070190 in WC_PlayerTextDrawDestroy (playerid=0, PlayerText:text=65535) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1561
+[23:07:38] [debug] #1 002d8738 in public WC_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\gamemodes\chiliad.pwn:35432
+[23:07:38] [debug] #2 00072f40 in public ac_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\weapon-config.inc:1790
+[23:07:38] [debug] #3 000280ec in public CB_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\nex-ac.inc:3798
+[23:07:38] [debug] #4 00008344 in public SSCANF_OnPlayerDisconnect (0, 1)  at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\callbacks.inc:675
+[23:07:38] [debug] #5 00005e28 in public Iter_OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\sscanf2.inc:1154
+[23:07:38] [debug] #6 native CallLocalFunction () in samp-server.exe
+[23:07:38] [debug] #7 000017bc in public OnPlayerDisconnect (playerid=0, reason=1) at C:\Users\User\Documents\GitHub\chiliad-0.3.7\pawno\include\foreach.inc:833
+[23:07:39] [part] Brian_Randall has left the server (0:1)
