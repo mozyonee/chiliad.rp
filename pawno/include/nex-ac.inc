@@ -3644,7 +3644,7 @@ public OnPlayerConnect(playerid)
 					#if defined DEBUG
 						printf(DEBUG_CODE_2, playerid, ac_ver);
 					#endif
-					ac_KickWithCode(playerid, "", 0, 41);
+					//ac_KickWithCode(playerid, "", 0, 41);
 				}
 			}
 		#else
