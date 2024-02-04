@@ -142,5 +142,7 @@
         "xtra",
         "yaxt",
         "yellowdirt"
-    ]
+	],
+	"files.encoding": "windows1251",
+	"files.autoGuessEncoding": true
 }
