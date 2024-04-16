@@ -1008,3 +1008,385 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [21:48:57] [debug] #0 00aa6f8c in pay_realty () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:66679
 [21:48:57] [debug] #1 007d0f10 in PayDay () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:40089
 [21:48:57] [debug] #2 00ab9e00 in public OnGameModeUpdate () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:67461
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:00:44] filterscripts = ""  (string)
+[22:00:44] 
+[22:00:44] Server Plugins
+[22:00:44] --------------
+[22:00:44]  Loading plugin: crashdetect
+[22:00:44]   CrashDetect plugin 4.21
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: streamer
+[22:00:44] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: textdraw-streamer
+[22:00:44] 
+[22:00:44]  =================================
+[22:00:44]  |                               |
+[22:00:44]  |    textdraw-streamer v2.0.3   |
+[22:00:44]  |            Loaded             |
+[22:00:44]  |                               |
+[22:00:44]  |  Coding:                      |
+[22:00:44]  |                               |
+[22:00:44]  |  Burak (Nexor)                |
+[22:00:44]  |                               |
+[22:00:44]  |  Compiled:                    |
+[22:00:44]  |                               |
+[22:00:44]  |  29.09.2023, 16:49:07         |
+[22:00:44]  |                               |
+[22:00:44]  |  Github:                      |
+[22:00:44]  |                               |
+[22:00:44]  |  github.com/nexquery          |
+[22:00:44]  |                               |
+[22:00:44]  |  Discord:                     |
+[22:00:44]  |                               |
+[22:00:44]  |  benburakya - Nexor#4730      |
+[22:00:44]  |                               |
+[22:00:44]  =================================
+[22:00:44] 
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: sscanf
+[22:00:44] 
+[22:00:44]  ===============================
+[22:00:44] 
+[22:00:44]       sscanf plugin loaded.     
+[22:00:44] 
+[22:00:44]          Version: 2.13.8
+[22:00:44] 
+[22:00:44]    (c) 2022 Alex "Y_Less" Cole  
+[22:00:44] 
+[22:00:44]  ===============================
+[22:00:44] 
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: pawnraknet
+[22:00:44] [Pawn.RakNet] plugin v1.6.0 loading...
+[22:00:44] [Pawn.RakNet] 
+
+    | Pawn.RakNet 1.6.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 19:36:19
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.RakNet
+    |--------------------------------------------------------------
+    | Wiki: https://github.com/katursis/Pawn.RakNet/wiki
+
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: pawncmd
+[22:00:44] [Pawn.CMD] plugin v3.4.0 loading...
+[22:00:44] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: mysql
+[22:00:44]  >> plugin.mysql: R41-4 successfully loaded.
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: requests
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: profiler
+[22:00:44]   Profiler plugin 2.15.3
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: pawnregex
+[22:00:44] [Pawn.Regex] plugin v1.2.3 loading...
+[22:00:44] [Pawn.Regex] 
+
+    | Pawn.Regex 1.2.3 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:59:38
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.Regex
+
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: TOTP
+[22:00:44] TOTP plugin v1.0.1 by Games loaded.
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: gvar
+[22:00:44] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[22:00:44]   Loaded.
+[22:00:44]  Loading plugin: discord-connector
+[22:01:05]  >> discord-connector: timeout while initializing data.
+[22:01:05]                          plugin will proceed to retry connecting in the background.
+[22:01:05]   Loaded.
+[22:01:05]  Loaded 13 plugins.
+
+[22:01:05] 
+[22:01:05] Filterscripts
+[22:01:05] ---------------
+[22:01:05]   Loaded 0 filterscripts.
+
+[22:01:05] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[22:01:05]  
+[22:01:05] --------------------------------------
+[22:01:05]  Anticheat Nex-AC loaded!
+[22:01:05]  Anticheat version: 1.9.61
+[22:01:05]  Author: Nexius
+[22:01:05] --------------------------------------
+
+[22:01:05] [ADM] Info: Load 3DTryg Gen. 2 v1.0.1 for SA:MP 0.3.7 by Abyss Morgan
+[22:01:05] [debug] Long callback execution detected (hang or performance issue)
+[22:01:05] [debug] AMX backtrace:
+[22:01:05] [debug] #0 0089f23c in load_vehicles () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:49339
+[22:01:05] [debug] #1 00363b90 in public T3_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:39262
+[22:01:05] [debug] #2 000867dc in public WC_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\3DTryg.inc:6187
+[22:01:05] [debug] #3 0006feb4 in public ac_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\weapon-config.inc:1701
+[22:01:05] [debug] #4 000259c4 in public CB_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\nex-ac.inc:3532
+[22:01:05] [debug] #5 000083f4 in public PawnCmd_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\callbacks.inc:697
+[22:01:05] [debug] #6 000064a0 in public SSCANF_OnGameModeInit ()  at D:\projects\pawno\chiliad-0.3.7\pawno\include\Pawn.CMD.inc:131
+[22:01:05] [debug] #7 00005be8 in public PawnRakNet_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\sscanf2.inc:1066
+[22:01:05] [debug] #8 00005838 in public Iter_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\Pawn.RakNet.inc:1153
+[22:01:05] [debug] #9 native CallLocalFunction () in samp-server.exe
+[22:01:05] [debug] #10 00001228 in public OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\foreach.inc:735
+[22:01:05] [Success] Vehicle loaded. (212 pcs.)
+[22:01:06] [Success] Gang/mafia freezes loaded. (1 pcs.)
+[22:01:06] [Success] Houses loaded. (437 pcs.)
+[22:01:06] [Warning] Families weren't found in DB.
+[22:01:06] [Warning] Businesses weren't found in DB.
+[22:01:06] [Success] Businesses loaded. (0 pcs.)
+[22:01:06] [Success] Business actors loaded. (33 pcs.)
+[22:01:06] [Warning] Business objects weren't found in DB.
+[22:01:06] [Warning] Apartments weren't found in DB.
+[22:01:06] [Success] Green zones loaded. (48 pcs.)
+[22:01:06] [Success] Gangzones loaded. (130 pcs.)
+[22:01:06] [Success] Factions loaded (6 pcs.)
+[22:01:07] [Success] Faction ranks loaded (68 pcs.)
+[22:01:07] [Success] Faction skins loaded (18 pcs.)
+[22:01:07] [Success] Faction fleets loaded (50 pcs.)
+[22:01:07] [Success] Anti-cheat loaded. (53 pcs.)
+[22:01:07] [Success] Black market loaded. (1 pcs.)
+[22:01:07] [Success] Economics loaded.
+[22:01:07] [Success] ATMs loaded. (7 pcs.)
+[22:01:07] [Success] Business functions loaded. (14 pcs.)
+[22:01:07] [Success] Faction weapons loaded.
+[22:01:07] [Success] Billboards loaded. (50 pcs.)
+[22:01:07] [Success] Graffiti loaded. (120 pcs.)
+[22:01:07] [Success] Motorhouses loaded. (3 pcs.)
+[22:01:07] [Success] Diplomacy loaded. (8 pcs.)
+[22:01:08] [Success] Pickups loaded. (85 pcs.)
+[22:01:08] [Success] 1 bus routes were uploaded.
+[22:01:08] [Success] Dynamic objects loaded. (13504 pcs.)
+[22:01:08] Number of vehicle models: 55
+[22:01:08] [Success] Actors loaded. (13 pcs.)
+[22:01:08] [Success] Bus checkpoints uploading for route #101: 80 pcs.
+[22:01:09] [debug] Long callback execution detected (hang or performance issue)
+[22:01:09] [debug] AMX backtrace:
+[22:01:09] [debug] #0 00aa6f8c in pay_realty () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:66679
+[22:01:09] [debug] #1 007d0f10 in PayDay () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:40089
+[22:01:09] [debug] #2 00ab9e00 in public OnGameModeUpdate () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:67461
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:16:04] filterscripts = ""  (string)
+[22:16:04] 
+[22:16:04] Server Plugins
+[22:16:04] --------------
+[22:16:04]  Loading plugin: crashdetect
+[22:16:04]   CrashDetect plugin 4.21
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: streamer
+[22:16:04] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: textdraw-streamer
+[22:16:04] 
+[22:16:04]  =================================
+[22:16:04]  |                               |
+[22:16:04]  |    textdraw-streamer v2.0.3   |
+[22:16:04]  |            Loaded             |
+[22:16:04]  |                               |
+[22:16:04]  |  Coding:                      |
+[22:16:04]  |                               |
+[22:16:04]  |  Burak (Nexor)                |
+[22:16:04]  |                               |
+[22:16:04]  |  Compiled:                    |
+[22:16:04]  |                               |
+[22:16:04]  |  29.09.2023, 16:49:07         |
+[22:16:04]  |                               |
+[22:16:04]  |  Github:                      |
+[22:16:04]  |                               |
+[22:16:04]  |  github.com/nexquery          |
+[22:16:04]  |                               |
+[22:16:04]  |  Discord:                     |
+[22:16:04]  |                               |
+[22:16:04]  |  benburakya - Nexor#4730      |
+[22:16:04]  |                               |
+[22:16:04]  =================================
+[22:16:04] 
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: sscanf
+[22:16:04] 
+[22:16:04]  ===============================
+[22:16:04] 
+[22:16:04]       sscanf plugin loaded.     
+[22:16:04] 
+[22:16:04]          Version: 2.13.8
+[22:16:04] 
+[22:16:04]    (c) 2022 Alex "Y_Less" Cole  
+[22:16:04] 
+[22:16:04]  ===============================
+[22:16:04] 
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: pawnraknet
+[22:16:04] [Pawn.RakNet] plugin v1.6.0 loading...
+[22:16:04] [Pawn.RakNet] 
+
+    | Pawn.RakNet 1.6.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 19:36:19
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.RakNet
+    |--------------------------------------------------------------
+    | Wiki: https://github.com/katursis/Pawn.RakNet/wiki
+
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: pawncmd
+[22:16:04] [Pawn.CMD] plugin v3.4.0 loading...
+[22:16:04] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: mysql
+[22:16:04]  >> plugin.mysql: R41-4 successfully loaded.
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: requests
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: profiler
+[22:16:04]   Profiler plugin 2.15.3
+[22:16:04]   Loaded.
+[22:16:04]  Loading plugin: pawnregex
+[22:16:05] [Pawn.Regex] plugin v1.2.3 loading...
+[22:16:05] [Pawn.Regex] 
+
+    | Pawn.Regex 1.2.3 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:59:38
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.Regex
+
+[22:16:05]   Loaded.
+[22:16:05]  Loading plugin: TOTP
+[22:16:05] TOTP plugin v1.0.1 by Games loaded.
+[22:16:05]   Loaded.
+[22:16:05]  Loading plugin: gvar
+[22:16:05] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[22:16:05]   Loaded.
+[22:16:05]  Loading plugin: discord-connector
+[22:16:25]  >> discord-connector: timeout while initializing data.
+[22:16:25]                          plugin will proceed to retry connecting in the background.
+[22:16:25]   Loaded.
+[22:16:25]  Loaded 13 plugins.
+
+[22:16:25] 
+[22:16:25] Filterscripts
+[22:16:25] ---------------
+[22:16:25]   Loaded 0 filterscripts.
+
+[22:16:25] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[22:16:25]  
+[22:16:25] --------------------------------------
+[22:16:25]  Anticheat Nex-AC loaded!
+[22:16:25]  Anticheat version: 1.9.61
+[22:16:25]  Author: Nexius
+[22:16:25] --------------------------------------
+
+[22:16:25] [ADM] Info: Load 3DTryg Gen. 2 v1.0.1 for SA:MP 0.3.7 by Abyss Morgan
+[22:16:26] [debug] Long callback execution detected (hang or performance issue)
+[22:16:26] [debug] AMX backtrace:
+[22:16:26] [debug] #0 0089f23c in load_vehicles () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:49339
+[22:16:26] [debug] #1 00363b90 in public T3_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:39262
+[22:16:26] [debug] #2 000867dc in public WC_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\3DTryg.inc:6187
+[22:16:26] [debug] #3 0006feb4 in public ac_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\weapon-config.inc:1701
+[22:16:26] [debug] #4 000259c4 in public CB_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\nex-ac.inc:3532
+[22:16:26] [debug] #5 000083f4 in public PawnCmd_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\callbacks.inc:697
+[22:16:26] [debug] #6 000064a0 in public SSCANF_OnGameModeInit ()  at D:\projects\pawno\chiliad-0.3.7\pawno\include\Pawn.CMD.inc:131
+[22:16:26] [debug] #7 00005be8 in public PawnRakNet_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\sscanf2.inc:1066
+[22:16:26] [debug] #8 00005838 in public Iter_OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\Pawn.RakNet.inc:1153
+[22:16:26] [debug] #9 native CallLocalFunction () in samp-server.exe
+[22:16:26] [debug] #10 00001228 in public OnGameModeInit () at D:\projects\pawno\chiliad-0.3.7\pawno\include\foreach.inc:735
+[22:16:26] [Success] Vehicle loaded. (212 pcs.)
+[22:16:27] [Success] Gang/mafia freezes loaded. (1 pcs.)
+[22:16:27] [Success] Houses loaded. (437 pcs.)
+[22:16:27] [Warning] Families weren't found in DB.
+[22:16:27] [Warning] Businesses weren't found in DB.
+[22:16:27] [Success] Businesses loaded. (0 pcs.)
+[22:16:27] [Success] Business actors loaded. (33 pcs.)
+[22:16:27] [Warning] Business objects weren't found in DB.
+[22:16:27] [Warning] Apartments weren't found in DB.
+[22:16:27] [Success] Green zones loaded. (48 pcs.)
+[22:16:28] [Success] Gangzones loaded. (130 pcs.)
+[22:16:28] [Success] Factions loaded (6 pcs.)
+[22:16:28] [Success] Faction ranks loaded (68 pcs.)
+[22:16:28] [Success] Faction skins loaded (18 pcs.)
+[22:16:28] [Success] Faction fleets loaded (50 pcs.)
+[22:16:28] [Success] Anti-cheat loaded. (53 pcs.)
+[22:16:28] [Success] Black market loaded. (1 pcs.)
+[22:16:28] [Success] Economics loaded.
+[22:16:28] [Success] ATMs loaded. (7 pcs.)
+[22:16:28] [Success] Business functions loaded. (14 pcs.)
+[22:16:28] [Success] Faction weapons loaded.
+[22:16:28] [Success] Billboards loaded. (50 pcs.)
+[22:16:28] [Success] Graffiti loaded. (120 pcs.)
+[22:16:28] [Success] Motorhouses loaded. (3 pcs.)
+[22:16:28] [Success] Diplomacy loaded. (8 pcs.)
+[22:16:29] [Success] Pickups loaded. (85 pcs.)
+[22:16:29] [Success] 1 bus routes were uploaded.
+[22:16:29] [Success] Dynamic objects loaded. (13504 pcs.)
+[22:16:29] Number of vehicle models: 55
+[22:16:29] [Success] Actors loaded. (13 pcs.)
+[22:16:29] [Success] Bus checkpoints uploading for route #101: 80 pcs.
+[22:16:30] [debug] Long callback execution detected (hang or performance issue)
+[22:16:30] [debug] AMX backtrace:
+[22:16:30] [debug] #0 00aa6f8c in pay_realty () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:66679
+[22:16:30] [debug] #1 007d0f10 in PayDay () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:40089
+[22:16:30] [debug] #2 00ab9e00 in public OnGameModeUpdate () at D:\projects\pawno\chiliad-0.3.7\gamemodes\chiliad.pwn:67461
