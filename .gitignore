@@ -1,3 +1,4 @@
 *.amx
-logs
+/logs
+/.vscode
 server_log.txt
