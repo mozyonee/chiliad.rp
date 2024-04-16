@@ -28,9 +28,9 @@
 
 // Limits and internal constants
 #define MAX_PLAYER_NAME							(24)
+#define MAX_PLAYERS								(1000)
 #define MAX_VEHICLES							(2000)
 #define MAX_ACTORS								(1000)
-
 #define INVALID_PLAYER_ID						(0xFFFF)
 #define INVALID_VEHICLE_ID						(0xFFFF)
 #define INVALID_ACTOR_ID						(0xFFFF)
@@ -52,6 +52,7 @@
 // --------------------------------------------------
 // Natives
 // --------------------------------------------------
+
 // Util
 native print(const string[]);
 native printf(const format[], {Float,_}:...);
@@ -241,7 +242,7 @@ native UpdatePlayer3DTextLabelText(playerid, PlayerText3D:id, color, text[]);
 #define DIALOG_STYLE_TABLIST			4
 #define DIALOG_STYLE_TABLIST_HEADERS	5
 
-native ShowPlayerDialog(playerid, dialogid, style, const caption[], const info[], const button1[], const button2[]);
+native ShowPlayerDialog(playerid, dialogid, style, caption[], info[], button1[], button2[]);
 
 // --------------------------------------------------
 // Defines
@@ -421,13 +422,5 @@ forward OnPlayerSelectObject(playerid, type, objectid, modelid, Float:fX, Float:
 #define BULLET_HIT_TYPE_PLAYER_OBJECT	4
 
 forward OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY, Float:fZ);
-
-#if !defined gpci // не помешает сначала проверить, вдруг эта функци€ уже была где-то объ€влена
-native gpci(playerid, buffer[], size = sizeof(buffer));
-#endif 
-
-#if !defined GetPlayerClientID
-native GetPlayerClientID(playerid, buffer[], size = sizeof(buffer)) = gpci;
-#endif 
 
 // --------------------------------------------------

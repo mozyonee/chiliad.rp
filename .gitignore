@@ -1,9 +1,3 @@
-*.log
-bans.json
-log.txt
 *.amx
-gamemodes/chiliad.amx
-*.amx
-*.amx
-server_log.txt
+logs
 server_log.txt
